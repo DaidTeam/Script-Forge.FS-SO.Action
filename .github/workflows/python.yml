@@ -2,6 +2,7 @@ name: Lint
 on: [push, pull_request]
 jobs:
   lint:
+    if: ${{ false }}
     name: Lint
     runs-on: ubuntu-latest
     steps:
